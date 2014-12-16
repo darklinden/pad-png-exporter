@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CE9CB081A3FFB5700F127A7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9CB071A3FFB5700F127A7 /* main.mm */; };
+		1CE9CB1F1A3FFBFD00F127A7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE9CB1E1A3FFBFD00F127A7 /* libz.dylib */; };
+		1CE9CB201A3FFC0000F127A7 /* liblibpng-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE9CB171A3FFBDA00F127A7 /* liblibpng-Mac.a */; };
+		1CE9CB251A3FFC6800F127A7 /* bc2pngs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9CB231A3FFC6800F127A7 /* bc2pngs.cpp */; };
+		1CE9CB261A3FFC6800F127A7 /* bin2bcs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9CB241A3FFC6800F127A7 /* bin2bcs.cpp */; };
+		1CE9CB2B1A3FFEF600F127A7 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9CB2A1A3FFEF600F127A7 /* common.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CE9CB141A3FFBDA00F127A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C3786961A3FDBAD0000524D;
+			remoteInfo = libpng;
+		};
+		1CE9CB161A3FFBDA00F127A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CE9CAF11A3FE1DE00F127A7;
+			remoteInfo = "libpng-MAC";
+		};
+		1CE9CB181A3FFBDA00F127A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C3786A11A3FDBAD0000524D;
+			remoteInfo = libpngTests;
+		};
+		1CE9CB211A3FFC0500F127A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CE9CAD91A3FE1DE00F127A7;
+			remoteInfo = "libpng-MAC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CE9CB021A3FFB5700F127A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1CE9CB041A3FFB5700F127A7 /* pad-png-exporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pad-png-exporter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE9CB071A3FFB5700F127A7 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng.xcodeproj; path = libpng/libpng.xcodeproj; sourceTree = "<group>"; };
+		1CE9CB1B1A3FFBEE00F127A7 /* pnglibconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = libpng/libpng/pnglibconf.h; sourceTree = "<group>"; };
+		1CE9CB1C1A3FFBEE00F127A7 /* png.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = png.h; path = libpng/libpng/libpng/png.h; sourceTree = "<group>"; };
+		1CE9CB1D1A3FFBEE00F127A7 /* pngconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = libpng/libpng/libpng/pngconf.h; sourceTree = "<group>"; };
+		1CE9CB1E1A3FFBFD00F127A7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1CE9CB231A3FFC6800F127A7 /* bc2pngs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bc2pngs.cpp; sourceTree = "<group>"; };
+		1CE9CB241A3FFC6800F127A7 /* bin2bcs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bin2bcs.cpp; sourceTree = "<group>"; };
+		1CE9CB271A3FFC8E00F127A7 /* bc2pngs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bc2pngs.h; sourceTree = "<group>"; };
+		1CE9CB281A3FFC9D00F127A7 /* bin2bcs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bin2bcs.h; sourceTree = "<group>"; };
+		1CE9CB291A3FFD3F00F127A7 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		1CE9CB2A1A3FFEF600F127A7 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE9CB011A3FFB5700F127A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE9CB201A3FFC0000F127A7 /* liblibpng-Mac.a in Frameworks */,
+				1CE9CB1F1A3FFBFD00F127A7 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE9CAFB1A3FFB5700F127A7 = {
+			isa = PBXGroup;
+			children = (
+				1CE9CB1E1A3FFBFD00F127A7 /* libz.dylib */,
+				1CE9CB1A1A3FFBDE00F127A7 /* libpng */,
+				1CE9CB061A3FFB5700F127A7 /* pad-png-exporter */,
+				1CE9CB051A3FFB5700F127A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CE9CB051A3FFB5700F127A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9CB041A3FFB5700F127A7 /* pad-png-exporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE9CB061A3FFB5700F127A7 /* pad-png-exporter */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9CB2A1A3FFEF600F127A7 /* common.cpp */,
+				1CE9CB291A3FFD3F00F127A7 /* common.h */,
+				1CE9CB231A3FFC6800F127A7 /* bc2pngs.cpp */,
+				1CE9CB271A3FFC8E00F127A7 /* bc2pngs.h */,
+				1CE9CB241A3FFC6800F127A7 /* bin2bcs.cpp */,
+				1CE9CB281A3FFC9D00F127A7 /* bin2bcs.h */,
+				1CE9CB071A3FFB5700F127A7 /* main.mm */,
+			);
+			path = "pad-png-exporter";
+			sourceTree = "<group>";
+		};
+		1CE9CB0F1A3FFBDA00F127A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9CB151A3FFBDA00F127A7 /* liblibpng.a */,
+				1CE9CB171A3FFBDA00F127A7 /* liblibpng-Mac.a */,
+				1CE9CB191A3FFBDA00F127A7 /* libpngTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE9CB1A1A3FFBDE00F127A7 /* libpng */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9CB1B1A3FFBEE00F127A7 /* pnglibconf.h */,
+				1CE9CB1C1A3FFBEE00F127A7 /* png.h */,
+				1CE9CB1D1A3FFBEE00F127A7 /* pngconf.h */,
+				1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */,
+			);
+			name = libpng;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CE9CB031A3FFB5700F127A7 /* pad-png-exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE9CB0B1A3FFB5700F127A7 /* Build configuration list for PBXNativeTarget "pad-png-exporter" */;
+			buildPhases = (
+				1CE9CB001A3FFB5700F127A7 /* Sources */,
+				1CE9CB011A3FFB5700F127A7 /* Frameworks */,
+				1CE9CB021A3FFB5700F127A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CE9CB221A3FFC0500F127A7 /* PBXTargetDependency */,
+			);
+			name = "pad-png-exporter";
+			productName = "pad-png-exporter";
+			productReference = 1CE9CB041A3FFB5700F127A7 /* pad-png-exporter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CE9CAFC1A3FFB5700F127A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = darklinden;
+				TargetAttributes = {
+					1CE9CB031A3FFB5700F127A7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CE9CAFF1A3FFB5700F127A7 /* Build configuration list for PBXProject "pad-png-exporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CE9CAFB1A3FFB5700F127A7;
+			productRefGroup = 1CE9CB051A3FFB5700F127A7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1CE9CB0F1A3FFBDA00F127A7 /* Products */;
+					ProjectRef = 1CE9CB0E1A3FFBDA00F127A7 /* libpng.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1CE9CB031A3FFB5700F127A7 /* pad-png-exporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1CE9CB151A3FFBDA00F127A7 /* liblibpng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibpng.a;
+			remoteRef = 1CE9CB141A3FFBDA00F127A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CE9CB171A3FFBDA00F127A7 /* liblibpng-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "liblibpng-Mac.a";
+			remoteRef = 1CE9CB161A3FFBDA00F127A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CE9CB191A3FFBDA00F127A7 /* libpngTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libpngTests.xctest;
+			remoteRef = 1CE9CB181A3FFBDA00F127A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE9CB001A3FFB5700F127A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE9CB2B1A3FFEF600F127A7 /* common.cpp in Sources */,
+				1CE9CB081A3FFB5700F127A7 /* main.mm in Sources */,
+				1CE9CB251A3FFC6800F127A7 /* bc2pngs.cpp in Sources */,
+				1CE9CB261A3FFC6800F127A7 /* bin2bcs.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CE9CB221A3FFC0500F127A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpng-MAC";
+			targetProxy = 1CE9CB211A3FFC0500F127A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CE9CB091A3FFB5700F127A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1CE9CB0A1A3FFB5700F127A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CE9CB0C1A3FFB5700F127A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CE9CB0D1A3FFB5700F127A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CE9CAFF1A3FFB5700F127A7 /* Build configuration list for PBXProject "pad-png-exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE9CB091A3FFB5700F127A7 /* Debug */,
+				1CE9CB0A1A3FFB5700F127A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE9CB0B1A3FFB5700F127A7 /* Build configuration list for PBXNativeTarget "pad-png-exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE9CB0C1A3FFB5700F127A7 /* Debug */,
+				1CE9CB0D1A3FFB5700F127A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CE9CAFC1A3FFB5700F127A7 /* Project object */;
+}
